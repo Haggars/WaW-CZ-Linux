@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Enter path to Steam directory (surround with /):"
+echo "Enter path to Steam directory (e.g. /run/media/User/Drive1):"
 read steamlib
 echo "Enter wine user (default for steam is 'steamuser':)"
 read user
@@ -11,4 +11,4 @@ read Exec
 echo Enter Steam game ID (10090 for World at War):
 read gameid
 echo Running executable:
-WINEPREFIX="$steamlib/Steam/steamapps/compatdata/$gameid/pfx/" wine "$Exec"
+WINEPREFIX="$steamlib Steam/steamapps/compatdata/$gameid/pfx/" wine "$Exec"
