@@ -5,7 +5,7 @@
 This is a simple script to install custom **exe** files on *Linux* installations of **Call of Duty: World at War.**
 
 ### Required packages:
-*Wine
+* Wine
 
 ## Usage
 1. Clone the repository
