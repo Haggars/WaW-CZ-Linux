@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a simple script to install custom **exe** files on *Linux* installations of **Call of Duty: World at War** for custom zombie maps.
+This is a GUI installer for custom zombie maps on *Linux* installations of **Call of Duty: World at War**.
 This can also be used to install **exe** files to any Steam game using the ID.
 
 ### Required packages:
